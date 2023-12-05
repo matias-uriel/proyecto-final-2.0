@@ -1,0 +1,141 @@
+		1:
+			// Habilidades Bulpaul:
+			habilidades_aliado_name[1] = "1.Latigazo" //daño medio, muy efectivo
+			palabra_con_espacios(habilidades_aliado_name[1],num_ref,habilidad_mia_1)
+			habilidades_aliado[1] = 5
+			Energia_Gastar[1]= 2
+			Tipo_ataque[1]= 6
+			habilidades_aliado_name[2] = "2.fotosentir" // no daña solo cura vida, poco efectivo
+			palabra_con_espacios(habilidades_aliado_name[2],num_ref,habilidad_mia_2)
+			habilidades_aliado[2] = 0
+			Energia_Gastar[2]= 8
+			Tipo_ataque[2]= 1
+			habilidades_aliado_name[3] = "3.rayo_solar" //daño especial mucho daño, poco eficaz
+			palabra_con_espacios(habilidades_aliado_name[3],num_ref,habilidad_mia_3)
+			habilidades_aliado[3] = 8
+			Energia_Gastar[3]= 10
+			Tipo_ataque[3]= 1
+			habilidades_aliado_name[4] = "4.Absorber" //daño bajo, robo de vida
+			palabra_con_espacios(habilidades_aliado_name[4],num_ref,habilidad_mia_4)
+			habilidades_aliado[4] = 5
+			Energia_Gastar[4]= 4
+			Tipo_ataque[4]= 1
+
+
+
+		2:
+			// Habilidades Bajielim:
+			habilidades_aliado_name[1] = "1.Hundir" // movimiento de daño nulo, + defensa - rapidez
+			palabra_con_espacios(habilidades_aliado_name[1],num_ref,habilidad_mia_1)
+			habilidades_aliado[1] = 0
+			Energia_Gastar[1]= 8 
+			Tipo_ataque[1]= 3
+			habilidades_aliado_name[2] = "2.Masticar" //movimiento fisico, mucho daño pero poco efectivo
+			palabra_con_espacios(habilidades_aliado_name[2],num_ref,habilidad_mia_2)
+			habilidades_aliado[2] = 13
+			Energia_Gastar[2]= 4
+			Tipo_ataque[2]= 6
+			habilidades_aliado_name[3] = "3.Escupitajo" //Movimiento tipo agua debil pero efectivo
+			palabra_con_espacios(habilidades_aliado_name[3],num_ref,habilidad_mia_3)
+			habilidades_aliado[3] = 6
+			Energia_Gastar[3]= 3
+			Tipo_ataque[3]= 3
+			habilidades_aliado_name[4] = "4.Surfear" // movimiento mejora, +rapidez - defensa
+			palabra_con_espacios(habilidades_aliado_name[4],num_ref,habilidad_mia_4)
+			habilidades_aliado[4] = 0
+			Energia_Gastar[4]= 8
+			Tipo_ataque[4]= 3
+
+
+		3:
+			// Habilidades Samael:
+			habilidades_aliado_name[1] = "Holypunch" //puñetazo tipo acero, muy confiable
+			palabra_con_espacios(habilidades_aliado_name[1],num_ref,habilidad_mia_1)
+			habilidades_aliado[1] = 6
+			Energia_Gastar[1]= 4 
+			Tipo_ataque[1]= 5
+			habilidades_aliado_name[2] = "Oppenjaime" // Oneshot suicida que mata al rival y te daño con mucha probabilidad de fallar
+			palabra_con_espacios(habilidades_aliado_name[2],num_ref,habilidad_mia_2)
+			habilidades_aliado[2] = 1999
+			Energia_Gastar[2]= 50 
+			Tipo_ataque[2]= 4
+			habilidades_aliado_name[3] = "Enfurecer" //aumenta tu fuerza,pero te dañas a ti mismo
+			palabra_con_espacios(habilidades_aliado_name[3],num_ref,habilidad_mia_3)
+			habilidades_aliado[3] = 0
+			Energia_Gastar[3]= 8 
+			Tipo_ataque[3]= 4
+			habilidades_aliado_name[4] = "Nudillaso" //movimiento lucha Muy confiable y dificil de esquivar
+			palabra_con_espacios(habilidades_aliado_name[4],num_ref,habilidad_mia_4)
+			habilidades_aliado[4] = 6
+			Energia_Gastar[4]= 4  
+			Tipo_ataque[4]= 4
+
+
+		4:
+			// Habilidades TAhiti:
+			habilidades_enemigo_name[1] = "Volcanizar" //movimiento tipo fuego, con capacidad de quemar
+			palabra_con_espacios(habilidades_enemigo_name[1],num_ref,habilidad_enemiga_1)
+			habilidades_enemigo[1] = 5
+			Energia_Gastar[1]= 3
+			Tipo_ataque[1]= 2	
+			habilidades_enemigo_name[2] = "erupcion" //LLena de humo el aire, baja la precision enemiga pero sube su ataque
+			palabra_con_espacios(habilidades_enemigo_name[2],num_ref,habilidad_enemiga_2)
+			habilidades_enemigo[2] = 0
+			Energia_Gastar[2]= 5  
+			Tipo_ataque[2]= 2
+			habilidades_enemigo_name[3] = "Dormir" //bajas tu defensa pero te curas 
+			palabra_con_espacios(habilidades_enemigo_name[3],num_ref,habilidad_enemiga_3)
+			habilidades_enemigo[3] = 0
+			Energia_Gastar[3]= 5  
+			Tipo_ataque[3]= 6
+			habilidades_enemigo_name[4] = "temblar" //movimiento tipo normal, con mucho daño y poca precision
+			palabra_con_espacios(habilidades_enemigo_name[4],num_ref,habilidad_enemiga_4)
+			habilidades_enemigo[4] = 15 
+			Energia_Gastar[4]= 4  
+			Tipo_ataque[4]= 6
+		5:
+			// Habilidades Taigre:
+			habilidades_enemigo_name[1] = "Rasguño"
+			palabra_con_espacios(habilidades_enemigo_name[1],num_ref,habilidad_enemiga_1)
+			habilidades_enemigo[1] = 5
+			Energia_Gastar[1]= 2
+			Tipo_ataque[1]= 6
+			habilidades_enemigo_name[2] = "ronroneo" //baja ataque del enemigo,baja tu velocidad
+			palabra_con_espacios(habilidades_enemigo_name[2],num_ref,habilidad_enemiga_2)
+			habilidades_enemigo[2] = 0
+			Energia_Gastar[2]= 6 
+			Tipo_ataque[2]= 6
+			habilidades_enemigo_name[3] = "Bolad.pelo" //tiras una bola de pelo muy rapida y efectiva
+			palabra_con_espacios(habilidades_enemigo_name[3],num_ref,habilidad_enemiga_3)
+			habilidades_enemigo[3] = 4
+			Energia_Gastar[3]= 2 
+			Tipo_ataque[3]= 3
+			habilidades_enemigo_name[4] = "rascar" //te curas muy poca vida y te sacas estados
+			palabra_con_espacios(habilidades_enemigo_name[4],num_ref,habilidad_enemiga_4)
+			habilidades_enemigo[4] = 1
+			Energia_Gastar[4]= 4
+			Tipo_ataque[4]= 6
+
+		6:
+			// Habilidades Dolarcium:
+			habilidades_enemigo_name[1] = "Subir.prec." // Subes ataque, cuesta mucha energia
+			palabra_con_espacios(habilidades_enemigo_name[1],num_ref,habilidad_enemiga_1)
+			habilidades_enemigo[1] = 0
+			Energia_Gastar[1]= 10
+			Tipo_ataque[1]= 5
+			habilidades_enemigo_name[2] = "Bajar.prec." // bajas ataque, pero subes tu velocidad
+			palabra_con_espacios(habilidades_enemigo_name[2],num_ref,habilidad_enemiga_2)
+			habilidades_enemigo[2] = 0
+			Energia_Gastar[2]= 10
+			Tipo_ataque[2]= 5
+			habilidades_enemigo_name[3] = "apostar" //ataque con probabilidad de pegar o pegarte a ti mismo o de mejorar stats o bajarlas
+			palabra_con_espacios(habilidades_enemigo_name[3],num_ref,habilidad_enemiga_3)
+			habilidades_enemigo[3] = 1
+			Energia_Gastar[3]= 4 
+			Tipo_ataque[3]= 5
+			habilidades_enemigo_name[4] = "T.moneda"
+			palabra_con_espacios(habilidades_enemigo_name[4],num_ref,habilidad_enemiga_4)
+			habilidades_enemigo[4] = 1
+			Energia_Gastar[4]= 4   
+			Tipo_ataque[4]=     
+
